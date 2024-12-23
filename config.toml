@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://www.RiedlTransportGmbH.github.io "
+baseURL = "http://riedltransportgmbh.github.io/"
 title = "Musikverein 1923 Sailauf"
 theme = "MVSailauf"
 # disable language
