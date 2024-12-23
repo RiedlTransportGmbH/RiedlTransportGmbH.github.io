@@ -45,15 +45,7 @@ name = "Impressum"
 url = "/imprint"
 weight = 11 
 
-[[menu.main]]
-name = "„Melodic Kids“"
-url = "/melodickids"
-weight = 12 
 
-# [[menu.main]]
-# name = "Mitglied werden"
-# url = "/mitglied"
-# weight = 13 
 
 ############################# Default Parameters ##########################
 [params]

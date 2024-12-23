@@ -37,31 +37,7 @@
                 {{ end }}
                 {{ end }}
 
-                <li class="nav-item dropdown pe-3">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Sonstiges
-                    </a>
-
-                    <ul class="dropdown-menu">
-                        {{ range .Site.Menus.main.ByWeight }}
-                        {{ if gt .Weight 10 }}
-                        {{ if ne .Weight 11 }}
-                        <li>
-                            <a class="dropdown-item" href="{{ .URL }}">
-                                {{ .Name }}
-                            </a>
-                        </li>
-                        {{end }}
-                        {{ end }}
-                        {{ end }}
-                    </ul>
-                </li>
-                <a class="navbar-brand" href="https://www.instagram.com/mv1923sailauf">
-                    <img src="/images/insta.avif" height="30" width="30" class="d-inline-block align-top"
-                        alt="Instagram" loading="lazy">
-                </a>
-                <a class="navbar-brand" href="https://www.facebook.com/mv1923sailauf">
+                <a class="navbar-brand" href="https://www.facebook.com/p/Elmar-Riedl-Transport-GmbH-100063685704560/?locale=de_DE">
                     <img src="/images/fb.avif" height="30" width="30" class="d-inline-block align-top" alt="Facebook"
                         loading="lazy">
                 </a>
