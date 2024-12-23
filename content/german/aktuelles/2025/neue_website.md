@@ -1,7 +1,7 @@
 ---
-date: 2024-04-29T14:34:16+02:00
-title: "Jugendausflug am 28.04.2024"
-subtitle: "Strikes für die MVS Jugend"
+date: 2024-01-01T14:34:16+02:00
+title: "Launch der neuen Website"
+subtitle: "Riedl Transport GmbH im neuen Design"
 draft: false
 resources:
     images:
@@ -11,5 +11,4 @@ resources:
 
 
 
-Am Sonntag Mittag traf sich unsere Jugend zum Bowlen in Aschaffenburg.
-Auf unseren zwei Bahnen konnten zwei Stunden lang einige Pins und sogar viele Strikes abgeräumt werden.
+Willkommen auf unserer neuen Website!
