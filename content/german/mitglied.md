@@ -1,4 +1,0 @@
----
-title: "Mitglied"
-layout: mitglied 
----
