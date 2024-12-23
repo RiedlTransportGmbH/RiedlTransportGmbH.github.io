@@ -1,7 +1,7 @@
 gallery:
   items:
   - title: "Westerngrund"
-    horizontal: "westerngrund_h.png"
+    horizontal: "erstes_hauptbild.jpg"
     vertikal: "westerngrund_v.png"
   - title: "Erster Mai"
     horizontal: "erster_mai_h.png"
