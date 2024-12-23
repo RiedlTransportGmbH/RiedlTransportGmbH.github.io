@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "http://riedltransportgmbh.github.io/"
-title = "Musikverein 1923 Sailauf"
+title = "Elmar Riedl Transport GmbH"
 theme = "MVSailauf"
 # disable language
 defaultContentLanguage = "de"
@@ -15,29 +15,9 @@ url = "/aktuelles"
 weight = 1
 
 [[menu.main]]
-name = "Veranstaltungen"
-url = "/veranstaltungen"
-weight = 3
-
-[[menu.main]]
-name = "Instrumentalausbildung"
-url = "/instrumentalausbildung"
-weight = 15
-
-[[menu.main]]
-name = "„Das Blättchen“"
-url = "/blaettchen"
-weight = 16 
-
-[[menu.main]]
 name = "Kontakt"
 url = "/kontakt"
 weight = 7
-
-[[menu.main]]
-name = "Sponsoren"
-url = "/sponsoren"
-weight = 17
 
 
 [[menu.main]]
@@ -49,11 +29,11 @@ weight = 11
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo_new.svg"
-jugendlogo = "images/logo_jugend.svg"
+logo = "images/logo_riedl.jpg"
+jugendlogo = "images/logo_riedl.jpg"
 maskottchen = "images/Engelbert.svg"
-author = "Paul Gerhart 2"
-title = "Musikverein 1923 Sailauf"
+author = "Linda Schneider und Julian Thomas"
+title = "Elmar Riedl Transport GmbH"
 ustid = ""
 
 ################################ German Language ########################
@@ -62,4 +42,4 @@ languageName = "De"
 languageCode = "de-de"
 contentDir = "content/german"
 weight = 2
-copyright = "Copyright &copy; 2022 Musikverein Sailauf"
+copyright = "Copyright &copy; 2025 Riedl Transport GmbH"
