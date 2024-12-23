@@ -1,0 +1,170 @@
+{{ define "content" }}
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.data.vorstand }}
+<div class="container pt-1 pb-3">
+    <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .ersterVorstand | relURL }}" alt="Der erste Vorstand">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">1. Vorstand</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .ersterVorstand | markdownify}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ .ersterVorstandKontakt | markdownify}}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                {{ .ersterVorstandMobil | markdownify}}
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .zweiterVorstand | relURL }}" alt="Der zweite Vorstand">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">2. Vorstand</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .zweiterVorstand | markdownify}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ .zweiterVorstandKontakt | markdownify}}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                {{ .zweiterVorstandMobil | markdownify}}
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .jugendleitung | relURL }}" alt="Die Jugendleitung">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">Jugendleitung</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .jugendleitung }} </br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ .jugendleitungEmail }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {{ .jugendleitungMobil }}
+                            </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
+            <div class="card w-100">
+                {{ with $data.data.abbildungen }}
+                <img class="card-img-top" src="{{ .pressewart | relURL }}" alt="Der Pressewart">
+                {{ end }}
+                <div class="card-body">
+                    <h5 class="card-title">Pressewart</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .pressewart}}
+                            </td>
+                        </tr>
+                        {{ if .pressewartEmail}}
+                        <tr>
+                            <td>
+                                {{ .pressewartEmail}}
+                            </td>
+                        </tr>
+                        {{ end }}
+                        {{ with .pressewartMobil}}
+                        <tr>
+                            <td>
+                                {{ .}}
+                            </td>
+                        </tr>
+                        {{ end }}
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-lg-6 pt-3 align-items-stretch d-flex">
+            {{ partial "mitglied.html" .}}
+        </div>
+        {{ with $data.data.contact }}
+
+        <div class="col-lg-6 pt-3">
+            <div class="card w-100">
+                <div class="card-body">
+                    <h5 class="card-title">Kontakt</h5>
+                    <p class="card-text">
+                    <table class="table">
+                        <tr>
+                            <td>
+                                {{ .title }} e.V.</br>
+                                {{ .address_1 }} </br>
+                                {{ .address_2 }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>{{ .phone }}</td>
+                        </tr>
+                        <tr>
+                            <td> {{ .email }} </td>
+                        </tr>
+                        <tr>
+                            <td> {{ .homepage }} </td>
+                        </tr>
+                    </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{{ end }}
+{{ end }}
+
+{{ end }}

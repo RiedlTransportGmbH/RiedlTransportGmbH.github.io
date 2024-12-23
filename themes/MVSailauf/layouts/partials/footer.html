@@ -1,0 +1,27 @@
+<footer class="mt-auto">
+
+<nav class="navbar navbar-expand bg-light navbar-light">
+	<ul class="navbar-nav center-text mx-auto">
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.main.ByWeight }}
+		{{ if eq .Weight 11 }}
+		<li class="nav-item ">
+			<a class='nav-link {{ if in $currentPage .URL }} active {{ end }}' href="{{ .URL | absURL }}">
+				{{ .Name }}
+			</a>
+		</li>
+		{{ end }}
+		{{ end }}
+		<li class="nav-item ">
+			<a class='nav-link' href="/kontakt">
+				Kontakt
+			</a>
+		</li>
+	</ul>
+</nav>
+
+</footer>
+
+
+
+<script src="/js/bootstrap-523.bundle.min.js"></script>
