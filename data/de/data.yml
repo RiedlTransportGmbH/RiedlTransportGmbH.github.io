@@ -1,10 +1,12 @@
 contact:
-  title : Musikverein 1923 Sailauf 222
-  address_1 : "Am Festplatz 2"
-  address_2 : "63877 Sailauf"
-  phone : "+49 6093 9967719"
-  email : "info [at] mv1923sailauf.de"
-  homepage : "https://mv1923sailauf.de"
+  title : "Elmar Riedl Transport GmbH"
+  address_1 : "Hauptstraße 27"
+  address_2 : "93339 Riedenburg"
+  phone : "+49 9442 991590"
+  fax : "+49 9442 991590"
+  handy : "0170 7811486"
+  email : "dispo@riedl-transporte.de"
+  homepage : "https://riedl-transporte.de"
 
 abbildungen:
   jugendorchester: 
