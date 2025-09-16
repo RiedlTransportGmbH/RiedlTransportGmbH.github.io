@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "http://riedltransportgmbh.github.io/"
-title = "Elmar Riedl Transport GmbH"
+title = "Riedl Transport GmbH"
 theme = "MVSailauf"
 # disable language
 defaultContentLanguage = "de"
@@ -33,7 +33,7 @@ logo = "images/logo_riedl.jpg"
 jugendlogo = "images/logo_riedl.jpg"
 maskottchen = "images/Engelbert.svg"
 author = "Linda Schneider und Julian Thomas"
-title = "Elmar Riedl Transport GmbH"
+title = "Riedl Transport GmbH"
 ustid = ""
 
 ################################ German Language ########################
