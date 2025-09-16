@@ -1,6 +1,6 @@
 {{ define "content" }}
 {{ $data := index site.Data site.Language.Lang }}
-{{ with $data.data.vorstand }}
+{{ with $data.data.mitarbeiter }}
 <div class="container pt-1 pb-3">
     <div class="row justify-content-center">
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
@@ -9,23 +9,17 @@
                 <img class="card-img-top" src="{{ .ersterVorstand | relURL }}" alt="Der erste Vorstand">
                 {{ end }}
                 <div class="card-body">
-                    <h5 class="card-title">1. Vorstand</h5>
+                    <h5 class="card-title">Geschäftsführer</h5>
                     <p class="card-text">
                     <table class="table">
                         <tr>
                             <td>
-                                {{ .ersterVorstand | markdownify}}
+                                {{ .ersterMitarbeiter | markdownify}}
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                {{ .ersterVorstandKontakt | markdownify}}
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                {{ .ersterVorstandMobil | markdownify}}
+                                {{ .ersterMitarbeiterInfo | markdownify}}
                             </td>
                         </tr>
                     </table>
@@ -36,28 +30,23 @@
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
             <div class="card w-100">
                 {{ with $data.data.abbildungen }}
-                <img class="card-img-top" src="{{ .zweiterVorstand | relURL }}" alt="Der zweite Vorstand">
+                <img class="card-img-top" src="{{ .zweiterMitarbeiter | relURL }}" alt="Der zweite Mitarbeiter">
                 {{ end }}
                 <div class="card-body">
-                    <h5 class="card-title">2. Vorstand</h5>
+                    <h5 class="card-title">Mitarbeiter</h5>
                     <p class="card-text">
                     <table class="table">
                         <tr>
                             <td>
-                                {{ .zweiterVorstand | markdownify}}
+                                {{ .zweiterMitarbeiter | markdownify}}
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                {{ .zweiterVorstandKontakt | markdownify}}
+                                {{ .zweiterMitarbeiterInfo | markdownify}}
                             </td>
                         </tr>
 
-                        <tr>
-                            <td>
-                                {{ .zweiterVorstandMobil | markdownify}}
-                            </td>
-                        </tr>
                     </table>
                     </p>
                 </div>
