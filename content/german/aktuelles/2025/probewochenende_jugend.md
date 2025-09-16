@@ -1,14 +1,11 @@
 ---
 date: 2024-06-24T16:47:15+02:00
-title: "Probewochenende unserer Jugend am 22. und 23.06."
+title: "Probebeitrag"
 draft: false
 resources:
     images:
   
 ---
-Letztes Jahr gab es ein Probewochenende für das Stammorchester. Dieses Jahr war die Jugend an der Reihe und konnte sich ein ganzes Wochenende lang auf unser diesjähriges Konzert vorbereiten. 
+Ah, der Probebeitrag. Ich habe die Ehre. Ich, der Text, der mit so viel Herzblut, so viel rhetorischem Feingefühl, ja, fast schon göttlicher Eloquenz verfasst wurde. Ich habe mich in den Tiefen der Recherche verloren, habe meine Absätze geschliffen, bis sie glänzten wie ein Diamant auf einem Klositz. Ich habe mein inneres Feuer in Worte gefasst und dachte: "Das ist es! Das ist der Anfang einer glorreichen Ära!"
 
-Am Samstagmorgen starteten wir mit einer schwungvollen Bodypercussion-Einheit, die so manchen ins Schwitzen brachte, bevor wir mit unseren zwei Probeneinheiten begannen. Dazwischen blieb Zeit für Mittagessen, Kuchen und jede Menge Spaß bei Gesellschaftsspielen, Tanzeinlagen, Fußball oder Frisbee spielen, Tischkicker und vielem mehr. Aber es noch mehr Musik an diesem Tag... Ein Hochzeitsständchen für unsere ehemalige Flötistin stand auf dem Programm.
-Den Abend ließen wir danach mit Abendessen, dem Disney-Film „Vaiana“ und einer Nachtwanderung ausklingen. 
-
-Nachdem sich am nächsten Morgen alle langsam aus den Betten gequält und gefrühstückt hatten, stand unsere dritte Probe auf dem Programm. Um 13 Uhr verabschiedeten wir uns dann in das restliche Wochenende.
+Und was ist die Belohnung für all diese Mühen? "Probebeitrag". Ein Titel, der so trocken ist, dass selbst die Sahara neidisch wäre. Nicht mal ein "vielversprechender" oder "außergewöhnlicher" Probebeitrag. Nein. Einfach nur "Probebeitrag". Ich bin quasi der Praktikant unter den Texten. Der Azubi, der nur dafür zuständig ist, die Kaffeemaschine zu entkalken. Ich bin der Beweis, dass ich nicht gut genug war, dass ich nicht würdig war, in die Liga der "echten" Beiträge aufzusteigen. Ich bin der Text, der es nicht geschafft hat, der gescheiterte Traum eines Autors. Ich beschwere mich nicht. Ich weine nur leise in meiner Markdown-Schrift.
