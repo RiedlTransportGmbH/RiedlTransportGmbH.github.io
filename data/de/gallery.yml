@@ -2,7 +2,7 @@ gallery:
   items:
   - title: "Uebersicht"
     horizontal: "erstes_hauptbild.jpg"
-    vertikal: "erstes_hauptbild.png"
+    vertikal: "erstes_hauptbild.jpg"
   - title: "Volle Fahrt"
     horizontal: "volle_fahrt.jpg"
     vertikal: "volle_fahrt.jpg"
