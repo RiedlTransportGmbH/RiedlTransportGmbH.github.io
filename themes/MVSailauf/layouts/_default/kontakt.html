@@ -64,68 +64,6 @@
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
-            <div class="card w-100">
-                {{ with $data.data.abbildungen }}
-                <img class="card-img-top" src="{{ .jugendleitung | relURL }}" alt="Die Jugendleitung">
-                {{ end }}
-                <div class="card-body">
-                    <h5 class="card-title">Jugendleitung</h5>
-                    <p class="card-text">
-                    <table class="table">
-                        <tr>
-                            <td>
-                                {{ .jugendleitung }} </br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                {{ .jugendleitungEmail }}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                {{ .jugendleitungMobil }}
-                            </td>
-                        </tr>
-                    </table>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-8 pt-3 align-items-stretch d-flex">
-            <div class="card w-100">
-                {{ with $data.data.abbildungen }}
-                <img class="card-img-top" src="{{ .pressewart | relURL }}" alt="Der Pressewart">
-                {{ end }}
-                <div class="card-body">
-                    <h5 class="card-title">Pressewart</h5>
-                    <p class="card-text">
-                    <table class="table">
-                        <tr>
-                            <td>
-                                {{ .pressewart}}
-                            </td>
-                        </tr>
-                        {{ if .pressewartEmail}}
-                        <tr>
-                            <td>
-                                {{ .pressewartEmail}}
-                            </td>
-                        </tr>
-                        {{ end }}
-                        {{ with .pressewartMobil}}
-                        <tr>
-                            <td>
-                                {{ .}}
-                            </td>
-                        </tr>
-                        {{ end }}
-                    </table>
-                    </p>
-                </div>
-            </div>
-        </div>
     </div>
     <div class="row pt-3">
         {{ with $data.data.contact }}

@@ -1,8 +1,8 @@
 gallery:
   items:
-  - title: "Westerngrund"
+  - title: "Uebersicht"
     horizontal: "erstes_hauptbild.jpg"
-    vertikal: "westerngrund_v.png"
-  - title: "Erster Mai"
-    horizontal: "erster_mai_h.png"
-    vertikal: "erster_mai_v.png"
+    vertikal: "erstes_hauptbild.png"
+  - title: "Volle Fahrt"
+    horizontal: "volle_fahrt.jpg"
+    vertikal: "volle_fahrt.jpg"
